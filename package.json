@@ -1,0 +1,25 @@
+{
+  "name": "hearthstone-cards",
+  "version": "1.0.0",
+  "description": "Fetchs cards from the Hearthstone API and creates a spreadsheet to manage your collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belen-albeza/hearthstone-cards.git"
+  },
+  "author": "Belén \"Benko\" Albeza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/belen-albeza/hearthstone-cards/issues"
+  },
+  "homepage": "https://github.com/belen-albeza/hearthstone-cards#readme",
+  "dependencies": {
+    "csv-stringify": "^1.0.4",
+    "lodash.sortby": "^4.7.0",
+    "minimist": "^1.2.0",
+    "unirest": "^0.5.1"
+  }
+}
